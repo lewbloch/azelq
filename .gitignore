@@ -6,7 +6,9 @@ __pycache__/
 # C extensions
 *.so
 .a
+.lib
 .o
+.obj
 
 # Distribution / packaging
 .Python
@@ -18,6 +20,8 @@ eggs/
 .eggs/
 lib/
 lib64//pyc
+out/
+output/
 parts/
 sdist/
 var/
@@ -26,6 +30,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.class
 MANIFEST
 
 # PyInstaller
@@ -228,6 +233,8 @@ __marimo__/
 
 # ephemera
 tmp/
+.~*
 .$$$
 .bak
+.temp
 .tmp
